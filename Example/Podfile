@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZoomSdkFramework_Example' do
+  pod 'ZoomSdkFramework', :path => '../'
+
+  target 'ZoomSdkFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
