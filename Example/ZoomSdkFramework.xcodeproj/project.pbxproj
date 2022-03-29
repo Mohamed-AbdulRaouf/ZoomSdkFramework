@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0911B2CC1D318B8B4AC525B5 /* Pods-ZoomSdkFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomSdkFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZoomSdkFramework_Example/Pods-ZoomSdkFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		44D2851D5CF959BC5F55C492 /* Pods-ZoomSdkFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomSdkFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-ZoomSdkFramework_Example/Pods-ZoomSdkFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4E6717172AB7089B93E4050A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		53FAA82BE9B0B3A5B9C34D43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4E6717172AB7089B93E4050A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		53FAA82BE9B0B3A5B9C34D43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZoomSdkFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomSdkFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* ZoomSdkFramework_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomSdkFramework_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		62E3C08CEA03596CF53B6757 /* ZoomSdkFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZoomSdkFramework.podspec; path = ../ZoomSdkFramework.podspec; sourceTree = "<group>"; };
+		62E3C08CEA03596CF53B6757 /* ZoomSdkFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZoomSdkFramework.podspec; path = ../ZoomSdkFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		83CEECBB6CC670050B15DC72 /* Pods-ZoomSdkFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomSdkFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZoomSdkFramework_Tests/Pods-ZoomSdkFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		84B9CB680B8ECD840BB91F58 /* Pods_ZoomSdkFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomSdkFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952B4EB51A06A8E8F262A8D9 /* Pods_ZoomSdkFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomSdkFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				83CEECBB6CC670050B15DC72 /* Pods-ZoomSdkFramework_Tests.debug.xcconfig */,
 				EB486387BAE680BA5F2B486C /* Pods-ZoomSdkFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
