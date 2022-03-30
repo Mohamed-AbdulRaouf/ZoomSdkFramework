@@ -8,6 +8,7 @@
 
 import UIKit
 import ZoomSdkFramework
+import MobileRTC
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

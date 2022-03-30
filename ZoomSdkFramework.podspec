@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZoomSdkFramework'
-  s.version          = '0.1.0'
-  s.summary          = 'A easy way to install zoom sdk'
+  s.version          = '1.1.0'
+  s.summary          = 'easy way to install zoom sdk'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
