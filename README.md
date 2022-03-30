@@ -22,7 +22,7 @@ pod 'ZoomSdkFramework'
 
 ## Author
 
-Mohamed-AbdulRaouf, 31677025+Mohamed-AbdulRaouf@users.noreply.github.com
+Mohamed-AbdulRaouf, mohamed.a.raouf@icloud.com
 
 ## License
 
