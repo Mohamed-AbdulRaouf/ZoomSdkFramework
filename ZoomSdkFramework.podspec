@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZoomSdkFramework'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = 'easy way to install zoom sdk with Arabic supported'
 
 # This description is used to generate tags and improve search results.
