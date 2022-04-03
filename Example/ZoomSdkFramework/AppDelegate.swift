@@ -37,7 +37,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             authorizationService.delegate = self
             authorizationService.sdkAuth()
         }
-        MobileRTC.shared().setLanguage("ar") // ar for Arabic language  , en for English
     }
     
     func applicationWillResignActive(_ application: UIApplication) {

@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- To change language of sdk
+MobileRTC.shared().setLanguage("ar") // ar for Arabic language  , en for English
+        
 ## Installation
 
 ZoomSdkFramework is available through [CocoaPods](https://cocoapods.org). To install
