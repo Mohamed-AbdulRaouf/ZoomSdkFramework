@@ -1,4 +1,4 @@
-# ZoomSdkFramework
+# ZoomSdkFramework Arabic Supported
 
 [![CI Status](https://img.shields.io/travis/Mohamed-AbdulRaouf/ZoomSdkFramework.svg?style=flat)](https://travis-ci.org/Mohamed-AbdulRaouf/ZoomSdkFramework)
 [![Version](https://img.shields.io/cocoapods/v/ZoomSdkFramework.svg?style=flat)](https://cocoapods.org/pods/ZoomSdkFramework)
