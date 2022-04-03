@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZoomSdkFramework'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'easy way to install zoom sdk'
 
 # This description is used to generate tags and improve search results.
