@@ -11,8 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- To change language of sdk
-MobileRTC.shared().setLanguage("ar") // ar for Arabic language  , en for English
+- Add sdk Key and sdk Secret app credentials from App Marketplace https://marketplace.zoom.us
         
 ## Installation
 
@@ -22,6 +21,13 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ZoomSdkFramework'
 ```
+
+## FAQ
+
+### How can I change language ?
+
+MobileRTC.shared().setLanguage("ar") // ar for Arabic language  , en for English
+
 
 ## Author
 
